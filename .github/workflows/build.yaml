@@ -16,7 +16,7 @@ jobs:
           node-version: 18
       - name: "install dependencies"
         working-directory: ./github-action-test
-        run: npm ci
+        run: npm install
       - name: "build"
         working-directory: ./github-action-test
         run: npm run build
